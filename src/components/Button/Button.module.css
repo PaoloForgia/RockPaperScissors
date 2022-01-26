@@ -1,0 +1,10 @@
+.root {
+  background: none;
+  border: 0.25em solid white;
+  border-radius: 1em;
+  cursor: pointer;
+}
+
+.root:hover {
+  border-color: mediumaquamarine;
+}

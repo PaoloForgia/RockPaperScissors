@@ -1,0 +1,54 @@
+.app {
+  --app-background-color: #ffea00;
+  --app-contrast-color: black;
+}
+
+.app {
+  text-align: center;
+}
+
+.appHeader {
+  background-color: var(--app-background-color);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: var(--app-contrast-color);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.field {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 0.25em;
+  background: black;
+  border: 0.25em solid var(--app-contrast-color);
+}
+
+.field > div {
+  background-color: var(--app-background-color);
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.user {
+  gap: 0.25em;
+}
+
+.img {
+  width: 8em;
+  height: 8em;
+}
+
+.tryAgainButton {
+  font-size: calc(2vmin);
+  padding: 1em;
+}
